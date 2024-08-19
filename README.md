@@ -84,7 +84,7 @@ To install the code generator, follow these steps:
 2. Run the setup script to install the generator.
 
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/ahmed812003/3-Tier-Architecture-Web-Api-Code-Generator.git)
 cd <repository-directory>
 ```
 
@@ -102,14 +102,14 @@ This will generate the project structure with all configurations and dependencie
 
 The generator automatically installs the following essential packages:
 
--'Microsoft.AspNetCore.Authentication.JwtBearer'
--'Microsoft.AspNetCore.Identity.EntityFrameworkCore'
--'Microsoft.EntityFrameworkCore'
--'Microsoft.EntityFrameworkCore.Design'
--'Microsoft.EntityFrameworkCore.SqlServer'
--'Microsoft.EntityFrameworkCore.Tools'
--'Microsoft.VisualStudio.Web.CodeGeneration.Design'
--'System.IdentityModel.Tokens.Jwt'
+- `Microsoft.AspNetCore.Authentication.JwtBearer`
+- `Microsoft.AspNetCore.Identity.EntityFrameworkCore`
+- `Microsoft.EntityFrameworkCore`
+- `Microsoft.EntityFrameworkCore.Design`
+- `Microsoft.EntityFrameworkCore.SqlServer`
+- `Microsoft.EntityFrameworkCore.Tools`
+- `Microsoft.VisualStudio.Web.CodeGeneration.Design`
+- `System.IdentityModel.Tokens.Jwt`
 
 ## Contributing
 
