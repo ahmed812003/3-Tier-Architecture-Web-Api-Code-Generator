@@ -95,8 +95,8 @@ After installing the generator, use the following command to generate a new .NET
 ```bash
 dotnet run --project <path-to-generator>
 ```
-
-This will generate the project structure with all configurations and dependencies in place.
+then Add the Project Name and Path.
+This will generate the project structure with all configurations and dependencies.
 
 ## Packages Installed
 
