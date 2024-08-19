@@ -84,7 +84,7 @@ To install the code generator, follow these steps:
 2. Run the setup script to install the generator.
 
 ```bash
-git clone [<repository-url>](https://github.com/ahmed812003/3-Tier-Architecture-Web-Api-Code-Generator.git)
+git clone https://github.com/ahmed812003/3-Tier-Architecture-Web-Api-Code-Generator.git
 cd <repository-directory>
 ```
 
