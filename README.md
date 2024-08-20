@@ -1,7 +1,3 @@
-Here's a `README.md` for your code generator:
-
----
-
 # .NET 8 3-Tier Architecture Code Generator
 
 This code generator automates the creation of a .NET 8 Web API project based on a 3-tier architecture. It simplifies the setup by generating the necessary layers, configuring essential services, and installing the required packages.
@@ -95,8 +91,7 @@ After installing the generator, use the following command to generate a new .NET
 ```bash
 dotnet run --project <path-to-generator>
 ```
-then Add the Project Name and Path.
-This will generate the project structure with all configurations and dependencies.
+Then Add the Project Name and Path. This will generate the project structure with all configurations and dependencies.
 
 ## Packages Installed
 
