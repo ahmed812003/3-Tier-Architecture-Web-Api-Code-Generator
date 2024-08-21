@@ -1,4 +1,8 @@
-namespace namespace Test.DataService.Repositories
+using Microsoft.EntityFrameworkCore;
+using Test.DataService.Data;
+using Test.DataService.Repositories.Interfaces;
+
+namespace Test.DataService.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {

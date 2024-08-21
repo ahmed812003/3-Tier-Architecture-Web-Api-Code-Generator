@@ -1,4 +1,7 @@
-namespace namespace Test.Entities.Models
+using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
+
+namespace Test.Entities.Models
 {
     public class AppUser : IdentityUser
     {

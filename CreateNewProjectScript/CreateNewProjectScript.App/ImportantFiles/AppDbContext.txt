@@ -1,4 +1,8 @@
-namespace namespace Test.DataService.Data
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Test.Entities.Models;
+
+namespace Test.DataService.Data
 {
     public class AppDbContext : IdentityDbContext<AppUser>
     {

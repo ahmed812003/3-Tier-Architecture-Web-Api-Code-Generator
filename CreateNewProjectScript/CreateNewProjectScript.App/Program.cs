@@ -1,4 +1,6 @@
 ﻿using System.Diagnostics;
+using System.Globalization;
+using System.IO;
 
 namespace CreateNewProjectScript.App
 {
@@ -62,7 +64,7 @@ namespace CreateNewProjectScript.App
             InstallDependencies(projectEntitesPath);
             InstallDependencies(projectServicesPath);
 
-
+            
             Console.ReadKey();
         }
 
@@ -215,7 +217,14 @@ namespace CreateNewProjectScript.App
             {
                 path = Path.Combine(path, $"{fileName}.cs");
                 var lines = File.ReadAllLines(FilePath);
-                lines[0] = fileNamespace;
+                for(int i = 0; i < lines.Length; i++)
+                {
+                    if (lines[i].StartsWith("namespace"))
+                    {
+                        lines[i] = fileNamespace;
+                    }
+                }
+                
                 File.WriteAllLines(FilePath, lines);
 
                 var content = File.ReadAllText(FilePath);
@@ -267,5 +276,6 @@ namespace CreateNewProjectScript.App
                 }
             }
         }
+
     }
 }

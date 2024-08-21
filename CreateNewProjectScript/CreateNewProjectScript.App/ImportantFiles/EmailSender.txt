@@ -1,4 +1,8 @@
-namespace namespace Test.DataService.Services
+using Microsoft.AspNetCore.Identity.UI.Services;
+using System.Net;
+using System.Net.Mail;
+
+namespace Test.DataService.Services
 {
     public class EmailSender : IEmailSender
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zXJYvJYc/vcyb2YRJj65cr/IGOLdFMLn97ifYNGhCz70GP7TUIa4AlgHrU3wzMozV+1GmvKbZq/Gz0ZdWpZ8LA==",
+  "dgSpecHash": "Gv1uA81216yEYry5tevY5UxfKGCOj1HFkGt03iMf7Di9E/Py12W+E5kAT2xujs+ZNj4upmUM112Zr7GfhzUKJA==",
   "success": true,
-  "projectFilePath": "E:\\Software Engineering\\Projects\\CreateNewProjectScript\\CreateNewProjectScript.App\\CreateNewProjectScript.App.csproj",
+  "projectFilePath": "E:\\Software Engineering\\Projects\\CodeGenerator\\CreateNewProjectScript\\CreateNewProjectScript.App\\CreateNewProjectScript.App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
